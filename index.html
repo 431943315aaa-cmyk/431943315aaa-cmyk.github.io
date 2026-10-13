@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>RealNow</title>
+<meta name="description" content="RealNow — 此时此刻。">
+<style>
+  :root {
+    --bg: #ffffff;
+    --fg: #16181d;
+    --dim: #6b7280;
+    --line: #e8eaed;
+    --accent: #2563eb;
+  }
+  * { box-sizing: border-box; }
+  html, body { margin: 0; padding: 0; }
+  body {
+    background: var(--bg);
+    color: var(--fg);
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "PingFang SC",
+                 "Hiragino Sans GB", "Microsoft YaHei", sans-serif;
+    line-height: 1.7;
+    -webkit-font-smoothing: antialiased;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem 1.5rem;
+  }
+  main { width: 100%; max-width: 560px; }
+  h1 {
+    font-size: 2.25rem;
+    font-weight: 600;
+    letter-spacing: -0.02em;
+    margin: 0 0 0.5rem;
+  }
+  .tag {
+    color: var(--dim);
+    font-size: 0.9rem;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    margin: 0 0 2.5rem;
+  }
+  p { color: #3f4550; margin: 0 0 1.25rem; }
+  hr { border: 0; border-top: 1px solid var(--line); margin: 2.5rem 0; }
+  a { color: var(--accent); text-decoration: none; }
+  a:hover { text-decoration: underline; }
+  footer { color: var(--dim); font-size: 0.82rem; }
+  .dot {
+    display: inline-block;
+    width: 7px; height: 7px;
+    border-radius: 50%;
+    background: var(--accent);
+    margin-right: 0.55rem;
+    vertical-align: middle;
+  }
+</style>
+</head>
+<body>
+<main>
+  <h1>RealNow</h1>
+  <p class="tag">realnow.me</p>
+
+  <p>站点已经上线。这个页面是你自己的，随便改。</p>
+  <p>用记事本打开 <code>index.html</code>，把这里的文字替换成你想写的内容，保存后重新上传即可。</p>
+
+  <hr>
+
+  <footer>
+    <span class="dot"></span>realnow.me
+  </footer>
+</main>
+</body>
+</html>
